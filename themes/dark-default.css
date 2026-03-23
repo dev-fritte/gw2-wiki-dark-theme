@@ -1,0 +1,172 @@
+body {
+  background: #3c3f41 !important;
+}
+
+a {
+  color: #5c8fe1;
+}
+
+a:visited {
+  color: #ba6cff;
+}
+
+.vector-menu-portal .vector-menu-content li a {
+  color: #7aa9c5;
+}
+
+.vector-menu-portal .vector-menu-content li a:visited {
+  color: #ae93e1;
+}
+
+.vector-menu-portal .vector-menu-heading {
+ color: #CCC;
+}
+
+p {
+  color: #CCC;
+}
+
+h1 {
+  color: #CCC;
+}
+
+h2 {
+  color: #CCC;
+}
+
+code {
+  background-color: #a3a3a3;
+  border: none;
+}
+
+li {
+  color: #848984;
+}
+
+textarea {
+  background-color: #161616;
+  color: #CCC;
+}
+
+.vector-menu-tabs-legacy li {
+  background: #3f3f3f;
+  border: 1px solid #CCC;
+}
+
+.vector-menu-tabs-legacy .selected {
+  background: #CCC;
+  border: 1px solid #AAA;
+}
+
+.vector-menu-tabs-legacy li a {
+  color: #5c8fe1;
+}
+
+/* main search */
+.vector-search-box-input {
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #CCC;
+}
+
+/* main search icon */
+.searchButton[name='go'] {
+  background: no-repeat center / 1.23076923em #CCC url(/skins/Vector/resources/common/images/search.svg?bbf78);
+}
+
+
+/* nav bar top edge */
+#p-personal {
+  background-color: #181818;
+}
+
+/* nav bar icons */ 
+.oo-ui-icon-bell, .mw-ui-icon-bell:before {
+  background-color: #CCC;
+  padding-top: '0.5rem';
+}
+
+.oo-ui-icon-tray, .mw-ui-icon-tray:before {
+  background-color: #CCC;
+  padding-top: '0.5rem';
+}
+
+#pt-notifications-notice .mw-echo-notifications-badge, #pt-notifications-alert .mw-echo-notifications-badge {
+  top: -3px;
+}
+
+td {
+  background-color: #3f3f3f;
+  color: white;
+}
+
+table.wikit tr:nth-child(even) td {
+  background-color: #181818;
+  color: white;
+}
+
+div#content {
+  background-color: #1e1f22;
+}
+
+#hs3-container h1, #hs3-container h2 {
+  color: #CCC;
+}
+
+.mw-body {
+  background-color: #1e1f22;
+}
+
+.mw-body h3 {
+  color: #CCC;
+}
+
+.mw-footer {
+  background-color: #1e1f22;
+}
+
+.hs3-item {
+  background-color: rgba(50, 50, 50, 0.85);
+  color: #CCC;
+}
+
+#hs3-bg1 {
+  background: url(https://wiki-de.guildwars2.com/images/c/c9/Orkansch%C3%BCtze_Konzeptkunst.jpg), #1e1f22;
+  background-blend-mode: multiply;
+}
+
+#hs3-bg2 {
+ background: url(https://wiki-de.guildwars2.com/images/5/51/Beschw%C3%B6rer_Konzeptkunst.jpg), #1e1f22;
+  background-blend-mode: multiply;
+}
+
+.mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd {
+  color: #817e7e;
+}
+
+.toc {
+  background-color: #1e1f22;
+  color: white;
+}
+
+.toctogglelabel {
+  color: #758ce5;
+}
+
+.catlinks {
+  background-color: #191a1a;
+}
+
+table.wikit > *:first-child > tr:first-child > th {
+  background-color: #51516d;
+  color: #CCC;
+}
+
+table.wikit th {
+  background-color: #51516d;
+  color: #CCC;
+}
+
+/* event timer */
+#event-wrapper.toptimes .event-bar-container.t .event-time {
+  color: #CCC;
+}
