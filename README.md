@@ -1,2 +1,9 @@
-# gw2-wiki-dark-theme
-Dark theme override for the GuildWars 2 Wiki
+# Dark Theme for the Guild Wars 2 Wiki
+This is a Media Wiki CSS override for the official [Guild Wars 2 Wiki](https://wiki-de.guildwars2.com/wiki/Hauptseite)
+
+## Setup
+1. Login to the Wiki
+2. Navigate to Settings > Appearance > Skin
+3. Select Verctor legacy (2010)
+4. Click on `Custom CSS`
+5. Insert the CSS from the default skin template file
