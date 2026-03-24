@@ -7,3 +7,11 @@ This is a Media Wiki CSS override for the official [Guild Wars 2 Wiki](https://w
 3. Select Verctor legacy (2010)
 4. Click on `Custom CSS`
 5. Insert the CSS from the [default skin template file](https://github.com/dev-fritte/gw2-wiki-dark-theme/blob/master/themes/dark-default.css)
+
+
+## Samples 
+![Main Page](https://github.com/dev-fritte/gw2-wiki-dark-theme/blob/master/samples/dark_default_main-page.jpg)
+
+![Main Page](https://github.com/dev-fritte/gw2-wiki-dark-theme/blob/master/samples/dark_default_weaponsets.jpg)
+
+![Main Page](https://github.com/dev-fritte/gw2-wiki-dark-theme/blob/master/samples/dark_default_event-timer.jpg)
