@@ -1,5 +1,19 @@
+
+/* ----- variables BEGIN ----- */
+
+:root {
+  --navigation-bg-color: #3c3f41;
+  --primary-text-color: #CCC;
+}
+
+
+/* ----- variables END ----- */
+
+
+/* ----- HTML components BEGIN ----- */
+
 body {
-  background: #3c3f41 !important;
+  background: var(--navigation-bg-color) !important;
 }
 
 a {
@@ -10,28 +24,16 @@ a:visited {
   color: #ba6cff;
 }
 
-.vector-menu-portal .vector-menu-content li a {
-  color: #7aa9c5;
-}
-
-.vector-menu-portal .vector-menu-content li a:visited {
-  color: #ae93e1;
-}
-
-.vector-menu-portal .vector-menu-heading {
- color: #CCC;
-}
-
 p {
-  color: #CCC;
+  color: var(--primary-text-color);
 }
 
 h1 {
-  color: #CCC;
+  color: var(--primary-text-color);
 }
 
 h2 {
-  color: #CCC;
+  color: var(--primary-text-color);
 }
 
 code {
@@ -48,13 +50,53 @@ textarea {
   color: #CCC;
 }
 
+td {
+  background-color: #3f3f3f;
+  color: var(--primary-text-color);
+}
+
+dt {
+ color: var(--primary-text-color);
+}
+
+fieldset {
+  color: var(--primary-text-color);
+}
+
+/* ----- HTML components BEGIN ----- */
+
+/* ----- Table of content ----- */
+
+.toc {
+  background-color: #1e1f22;
+  color: var(--primary-text-color);
+}
+
+.toctogglelabel {
+  color: #758ce5;
+}
+
+/* ----- Vector Components ----- */
+
+.vector-menu-portal .vector-menu-content li a {
+  color: #7aa9c5;
+}
+
+.vector-menu-portal .vector-menu-content li a:visited {
+  color: #ae93e1;
+}
+
+.vector-menu-portal .vector-menu-heading {
+ color: var(--primary-text-color);
+}
+
 .vector-menu-tabs-legacy li {
   background: #3f3f3f;
-  border: 1px solid #CCC;
+  border: 1px solid var(--primary-text-color);
 }
 
 .vector-menu-tabs-legacy .selected {
-  background: #CCC;
+  background: var(--primary-text-color);
   border: 1px solid #AAA;
 }
 
@@ -62,31 +104,36 @@ textarea {
   color: #5c8fe1;
 }
 
-/* main search */
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown .vector-menu-heading {
+  background-image: none;
+}
+
+/* ----- main search BEGIN ----- */
+
 .vector-search-box-input {
   background-color: rgb(0, 0, 0, 0.5);
-  color: #CCC;
+  color: var(--primary-text-color);
 }
 
-/* main search icon */
 .searchButton[name='go'] {
-  background: no-repeat center / 1.23076923em #CCC url(/skins/Vector/resources/common/images/search.svg?bbf78);
+  background: no-repeat center / 1.23076923em var(--primary-text-color); url(/skins/Vector/resources/common/images/search.svg?bbf78);
 }
 
+/* ----- main search END ----- */
 
 /* nav bar top edge */
 #p-personal {
-  background-color: #181818;
+  background-color: var(--navigation-bg-color);
 }
 
 /* nav bar icons */ 
 .oo-ui-icon-bell, .mw-ui-icon-bell:before {
-  background-color: #CCC;
+  background-color: var(--primary-text-color);
   padding-top: '0.5rem';
 }
 
 .oo-ui-icon-tray, .mw-ui-icon-tray:before {
-  background-color: #CCC;
+  background-color: var(--primary-text-color);
   padding-top: '0.5rem';
 }
 
@@ -94,39 +141,28 @@ textarea {
   top: -3px;
 }
 
-td {
-  background-color: #3f3f3f;
-  color: white;
-}
 
 table.wikit tr:nth-child(even) td {
   background-color: #181818;
-  color: white;
+  color: var(--primary-text-color);
 }
 
 div#content {
   background-color: #1e1f22;
+  color: var(--primary-text-color);
 }
+
+
+/* ----- Main Page BEGIN ----- */
 
 #hs3-container h1, #hs3-container h2 {
-  color: #CCC;
-}
-
-.mw-body {
-  background-color: #1e1f22;
-}
-
-.mw-body h3 {
-  color: #CCC;
-}
-
-.mw-footer {
-  background-color: #1e1f22;
+  color: var(--primary-text-color);
 }
 
 .hs3-item {
   background-color: rgba(50, 50, 50, 0.85);
-  color: #CCC;
+  color: var(--primary-text-color);
+  border: 1px solid #7575754d;
 }
 
 #hs3-bg1 {
@@ -139,17 +175,22 @@ div#content {
   background-blend-mode: multiply;
 }
 
+/* ----- Main Page END ----- */
+
 .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd {
   color: #817e7e;
 }
 
-.toc {
+.mw-body {
   background-color: #1e1f22;
-  color: white;
 }
 
-.toctogglelabel {
-  color: #758ce5;
+.mw-body h3 {
+  color: var(--primary-text-color);
+}
+
+.mw-footer {
+  background-color: #1e1f22;
 }
 
 .catlinks {
@@ -162,19 +203,48 @@ table.wikit > *:first-child > tr:first-child > th {
 }
 
 table.wikit th {
-  background-color: #51516d;
-  color: #CCC;
+  background-color: #51516d !important;
+  color: var(--primary-text-color);
 }
 
-/* event timer */
+/* ----- event timer BEGIN ----- */
 #event-wrapper.toptimes .event-bar-container.t .event-time {
-  color: #CCC;
+  color: var(--primary-text-color);
 }
 
 .event-limit-text {
   background: #676767 !important;
 }
 
-fieldset {
-  color: #CCC;
+/* ----- event timer END ----- */
+
+.mwe-popups .mwe-popups-container {
+  background: var(--navigation-bg-color);
+}
+
+.mwe-popups .mwe-popups-extract {
+  color: var(--primary-text-color);
+}
+
+.mwe-popups .mwe-popups-extract[dir='ltr']:after {
+  background-image: none;
+}
+
+.mw-ui-icon .mw-ui-icon-element .mw-ui-icon-small .mw-ui-icon-settings {
+  color: var(--primary-text-color);
+}
+
+.mw-ui-icon-small:before {
+  color: var(--primary-text-color);
+}
+
+.navleiste > tbody > tr > th > div {
+  background: #383549 !important;
+}
+
+
+/* ----- german wiki classes ----- */
+
+.infobox-kopf {
+  color: black;
 }
